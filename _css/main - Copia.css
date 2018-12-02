@@ -71,15 +71,20 @@ a{
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+    text-align: center;
+}
+.cardl{
+    min-height: 60vh;
 }
 
 /* Style Imagens */
-.cardl img{
-    width: 35%;
-    height: 50%;
+.slides img{
+    margin: 0 auto;
+    width: 40vw;
 }
 .cardr img{
     width: 60%;
+    padding-top: 5%;
 }
 .slidesIMG {display:none;}
 
@@ -111,8 +116,6 @@ a{
 .leftcolumnF {       /* Left column formulario */ 
     float: left;
     width: 55%;
-}
-    
 }
 .cardFr{
     margin-top: 10%;
