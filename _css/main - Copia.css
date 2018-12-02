@@ -5,16 +5,17 @@ body {
     font-family: Arial;
     background: #f1f1f1;
 }
+label{
+    font-family: 'Gamja Flower', cursive;
+}
 h1{
     text-align: center;
     color: #5b3656;
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
 }
-p{
+p, h2, a{
     text-align: center;
-}
-a{
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -137,27 +138,4 @@ input[type=submit] {
 }
 #loc{       /*Style Localização */
 
-}
-/* 
-.rightcolumnF {      Right column formulario
-    float: left;
-    width: 40%;
-
-    background-color:white;
-    padding: 5%;
-    margin-left: 5%;
-}
-.leftcolumnF {       /* Left column formulario 
-    float: left;
-    width: 55%;
-}*/ 
-.cardFr{
-    margin-top: 10%;
-
-    background-color: white;
-    padding-left: 10%;
-    padding: 20%;
-}
-label{
-    font-family: 'Gamja Flower', cursive;
 }
