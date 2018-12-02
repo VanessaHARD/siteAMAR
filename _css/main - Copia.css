@@ -5,9 +5,7 @@ body {
     font-family: Arial;
     background: #f1f1f1;
 }
-.corpo{
-    padding: 5%;
-}
+
 /* Header/Blog Title */
 .header {
     height: 65vh;
@@ -44,6 +42,10 @@ body {
     height:4%;
     float:right;
 }
+h1{
+    text-align: center;
+    color: #5b3656;
+}
 
 /* Change color on hover */
 .topnav a:hover {
@@ -65,16 +67,19 @@ body {
     padding-left: 20px;
 }
 /* Add a card effect for articles */
-.card {
+.cardl, .cardr {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
 }
 
 /* Style Imagens */
-.card img{
+.cardl img{
     width: 35%;
     height: 50%;
+}
+.cardr img{
+    width: 60%;
 }
 div.gallery img {
     width: 100%;
@@ -87,15 +92,9 @@ div.desc {
 }
 .slidesIMG {display:none;}
 
-/* Footer */
-footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-}
-
-
-/*  */
+/* colors 1- #78c5d0 - azul
+    2- #5b3656 - roxo
+    3- #ff3363 - rosa
+*/
 
 /*  */
