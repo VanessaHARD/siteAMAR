@@ -9,6 +9,10 @@ h1{
     text-align: center;
     color: #5b3656;
     font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+p{
+    text-align: center;
 }
 a{
     font-family: 'Libre Baskerville', serif;
@@ -36,7 +40,7 @@ a{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
 }#logoF{
     width:5%;
@@ -45,7 +49,7 @@ a{
 }
 .topnav a:hover {    /* Change color on hover */
     background-color: #ddd;
-    color: black;
+    color: #ff3363;
 }
 
 /* Create two unequal columns that floats next to each other */
