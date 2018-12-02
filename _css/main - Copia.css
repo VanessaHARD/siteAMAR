@@ -98,14 +98,48 @@ a{
     font-family: 'Roboto Slab', serif;
 */
 
-/* styl formulario */
-
-.cardF{ 
-    background-color: white;
-    padding: 13%;
-    margin-top: 0%;
+/* Style Contato */
+.center{
+    margin: 0 auto; 
+    width: 80vw;
+    background-color:white;
+    text-align: center;
 }
-.rightcolumnF {      /* Right column formulario */
+#mensagem{
+    height:150px;
+    width: 50%;
+}
+input, select {
+    width: 50%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #5b3656;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.col-25 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+#loc{       /*Style Localização */
+
+}
+/* 
+.rightcolumnF {      Right column formulario
     float: left;
     width: 40%;
 
@@ -113,10 +147,10 @@ a{
     padding: 5%;
     margin-left: 5%;
 }
-.leftcolumnF {       /* Left column formulario */ 
+.leftcolumnF {       /* Left column formulario 
     float: left;
     width: 55%;
-}
+}*/ 
 .cardFr{
     margin-top: 10%;
 
