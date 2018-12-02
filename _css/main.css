@@ -35,15 +35,7 @@ ul.topnav li a {
 }
 /*logo do face*/
 
-/* Style Corpo da Página */
-.corpo{
 
-}
-
-/* Style da Capa */
-#capa{
-
-}
 
 /* Style Imagens */
 div.gallery img {
@@ -79,8 +71,8 @@ div.desc {
 
 /* styl formulario */
 
-.car{
-
+.cardF{ 
+    border-top: 10%; 
 }
 
 /*  */
