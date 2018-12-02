@@ -8,6 +8,10 @@ body {
 h1{
     text-align: center;
     color: #5b3656;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-family: 'Libre Baskerville', serif;
 }
 
 /* Header/Blog Title */
@@ -78,6 +82,11 @@ h1{
 /* colors 1- #78c5d0 - azul
     2- #5b3656 - roxo
     3- #ff3363 - rosa
+*/
+/* fonts ---
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Slab', serif;
 */
 
 /*  */
