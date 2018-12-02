@@ -96,5 +96,28 @@ a{
 /* styl formulario */
 
 .cardF{ 
-    padding-top: 10%; 
+    background-color: white;
+    padding: 13%;
+    margin-top: 0%;
+}
+.rightcolumnF {      /* Right column formulario */
+    float: left;
+    width: 40%;
+
+    background-color:white;
+    padding: 5%;
+    margin-left: 5%;
+}
+.leftcolumnF {       /* Left column formulario */ 
+    float: left;
+    width: 55%;
+}
+    
+}
+.cardFr{
+    margin-top: 10%;
+
+    background-color: white;
+    padding-left: 10%;
+    padding: 20%;
 }
