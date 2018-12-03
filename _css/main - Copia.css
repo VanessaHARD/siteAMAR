@@ -29,12 +29,15 @@ p, h2, a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
 
 /* Style links de navegação/topnav */
 .topnav {
     overflow: hidden;
     background-color: #333;
+    position: relative;
 }
 .topnav a {
     float: left;
@@ -76,6 +79,7 @@ p, h2, a{
 }
 .cardl{
     min-height: 60vh;
+    
 }
 
 /* Style Imagens */
@@ -137,13 +141,23 @@ input[type=submit] {
     margin-top: 6px;
 }
 #loc{       /*Style Localização */
-
+    
+}
+#roo{
+    margin-top: 70%;
+}
+#roo2{
+    margin-top: 250%;
 }
 .rod{
+    position: static;
+    top: 10%;
+    
 background-color: #94cfd6;
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
 .rod1{
     max-width: 1170px;
     margin-left: auto;
