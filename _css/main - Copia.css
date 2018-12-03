@@ -139,3 +139,33 @@ input[type=submit] {
 #loc{       /*Style Localização */
 
 }
+.rod{
+background-color: #f0f0e8;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.rod1{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rod2{
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.rodlink{
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+    list-style-type: none;
+    font-size: 1rem;
+    text-align: center;
+}
+.rodlink1{
+    color: #000;
+    display: inline-block;
+    box-sizing: inherit;
+}
